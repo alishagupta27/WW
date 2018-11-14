@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8683" started-at="2018-11-14T08:53:13Z" finished-at="2018-11-14T08:53:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8683" started-at="2018-11-14T08:53:13Z" finished-at="2018-11-14T08:53:21Z">
+      <class name="com.WW.Question2">
+        <test-method status="PASS" signature="fetchURL(java.lang.String)[pri:0, instance:com.WW.Question2@42e26948]" name="fetchURL" is-config="true" duration-ms="10236" started-at="2018-11-14T08:53:02Z" finished-at="2018-11-14T08:53:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.weightwatchers.com/us/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchURL -->
+        <test-method status="PASS" signature="testFirstTitle()[pri:1, instance:com.WW.Question2@42e26948]" name="testFirstTitle" duration-ms="95" started-at="2018-11-14T08:53:13Z" finished-at="2018-11-14T08:53:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstTitle -->
+        <test-method status="PASS" signature="checkSecondPage()[pri:2, instance:com.WW.Question2@42e26948]" name="checkSecondPage" duration-ms="4788" started-at="2018-11-14T08:53:13Z" finished-at="2018-11-14T08:53:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSecondPage -->
+        <test-method status="PASS" signature="fetchValues()[pri:3, instance:com.WW.Question2@42e26948]" name="fetchValues" duration-ms="2022" started-at="2018-11-14T08:53:18Z" finished-at="2018-11-14T08:53:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchValues -->
+        <test-method status="PASS" signature="getScheduleSummary(java.lang.String)[pri:4, instance:com.WW.Question2@42e26948]" name="getScheduleSummary" duration-ms="1719" started-at="2018-11-14T08:53:20Z" finished-at="2018-11-14T08:53:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tue]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScheduleSummary -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.WW.Question2@42e26948]" name="closeBrowser" is-config="true" duration-ms="2665" started-at="2018-11-14T08:53:21Z" finished-at="2018-11-14T08:53:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.WW.Question2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

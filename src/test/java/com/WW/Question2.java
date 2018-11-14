@@ -18,7 +18,8 @@ class Question2 {
 	@Parameters({"URL"})
 	@BeforeSuite
 	public void fetchURL(String URL){
-		Path path = FileSystems.getDefault().getPath("src/test/resources/chromedriver.exe");
+		//Path path = FileSystems.getDefault().getPath("src/test/resources/chromedriver.exe");
+		Path path = FileSystems.getDefault().getPath("src/test/resources/chromedriver");
 		System.setProperty("webdriver.chrome.driver",path.toString());
 		driver=new ChromeDriver();
 		driver.get(URL);
